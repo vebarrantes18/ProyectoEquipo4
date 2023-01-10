@@ -1,0 +1,45 @@
+.Contenedor{
+  
+}
+.Content{
+    
+}
+body{
+    background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(94,121,9,0.7903536414565826) 0%, rgba(0,212,255,1) 100%);
+}
+
+.Titulo{
+    text-align: center;
+}
+
+.abs-center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+  }
+  
+  .form {
+    width: 750px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+
+  .Succses{
+    color: red;
+
+  }
+
+  .Tarjeta{
+    width: 355px;
+    height: auto;
+    display: inline-block;
+    justify-content: space-between;
+  
+  }
+  .Tarjeta img{
+    object-fit: cover;
+    width: 355px;
+    height: 355px;
+  }

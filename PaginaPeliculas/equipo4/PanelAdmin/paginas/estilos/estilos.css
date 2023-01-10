@@ -1,0 +1,103 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .contenedor {
+    width: 95%;
+    margin: auto;
+  }
+  
+  .header{
+    background: linear-gradient(rgba(5,7,12,0.90), rgba(5,7,12,0.90)),url(../netflix.jpg);
+  }
+  
+  header {
+    padding: 30px 0;
+  }
+  
+  header .contenedor1 {
+    display: flex;
+    padding-left: 100px;
+    align-items: center;
+  }
+  
+  .boton{
+    background: rgba(0,0,0,0.6);
+    border: none;
+    border-radius: 0.31em;
+    padding: 0.93em 1.87em;
+    color: red;
+    margin-right: 1.25em;
+    cursor: pointer;
+    transition: .3s ease all;
+    font-size: 1.12em;
+    position: relative;
+    left: 380px;
+    top: 100px
+  
+  }
+  
+  .contenedor{
+    display: flex;
+    color: #fff;
+  }
+  
+  .text{
+    padding-left: 15px;
+    font-size: 23px;
+    position: relative;
+    top:100px;
+   
+    left:10px;
+  }
+  
+  h1{
+    background: white;
+    font-size: 45px;
+  }
+  
+  h2{
+    background-color: white;
+  }
+  
+  .iconos{
+    height: 50px;
+    border: none;
+    background: rgba(0,0,0,0.2);
+    border-radius: 0.31em;
+    padding: 0.93em 1.87em;
+    color: red;
+    margin-right: 1.25em;
+    cursor: pointer;
+    transition: .3s ease all;
+    font-size: 1.12em;
+  }
+  
+  .iconos1{
+    height: 50px;
+    border: none;
+    background: rgba(0,0,0,0.2);
+    border-radius: 0.31em;
+    padding: 0.93em 1.87em;
+    color: #fff;
+    margin-right: 1.25em;
+    cursor: pointer;
+    transition: .3s ease all;
+    font-size: 1.12em;
+  }
+  
+  .iconos2{
+    height: 50px;
+    border: none;
+    background: rgba(0,0,0,0.2);
+    border-radius: 0.31em;
+    padding: 0.93em 1.87em;
+    color: #fff;
+    margin-right: 1.25em;
+    cursor: pointer;
+    transition: .3s ease all;
+    font-size: 1.12em;
+  }
+  
